@@ -1,0 +1,37 @@
+{
+  "source": "reports/week7",
+  "files": [
+    {
+      "name": "week7_strategy_comparison.csv",
+      "status": "copied"
+    },
+    {
+      "name": "week7_cost_sensitivity.csv",
+      "status": "copied"
+    },
+    {
+      "name": "week7_yearly_comparison.csv",
+      "status": "copied"
+    },
+    {
+      "name": "w7_annual_return.png",
+      "status": "copied"
+    },
+    {
+      "name": "w7_risk_turnover.png",
+      "status": "copied"
+    },
+    {
+      "name": "w7_cost_sensitivity.png",
+      "status": "copied"
+    },
+    {
+      "name": "w7_yearly_returns.png",
+      "status": "copied"
+    },
+    {
+      "name": "w7_max_drawdown.png",
+      "status": "copied"
+    }
+  ]
+}
