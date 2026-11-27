@@ -21,7 +21,13 @@ def show_image(name,caption):
         st.image(str(p),caption=caption,use_container_width=True)
     else: st.warning(f'Missing figure: {name}')
 
-nav=st.sidebar.radio('Research sections',['Overview','Strategy Comparison','Risk & Drawdown','Transaction Costs','Yearly Performance','Methods & Limitations'])
+nav=st.sidebar.radio('Research sections',['Overview', 'Strategy Comparison', 'Risk & Drawdown', 'Transaction Costs', 'Yearly Performance', 'Methods & Limitations', 'Turnover Optimization', 'Capacity Analysis', 'Joint Constraints', 'Risk & Capital Utilization', 'Model Validation'])
+
+import w7_research_extensions as extensions
+if nav in extensions.PAGES:
+    extensions.render(nav)
+    st.stop()
+
 st.sidebar.caption('W7 only · independent deployment')
 perf=load_csv('week7_strategy_comparison.csv')
 labels={'EW_11':'11-factor Equal Weight','IC_11':'11-factor Rolling IC','IR_11':'11-factor Rolling ICIR','EW_2':'2-factor Equal Weight'}

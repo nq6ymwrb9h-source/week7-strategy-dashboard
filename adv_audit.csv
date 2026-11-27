@@ -1,0 +1,2 @@
+sample_stocks,valid_observations,median_adv_amount_ratio,p01_ratio,p99_ratio,matching_fraction,internal_consistency_pass,absolute_currency_unit_verified
+100,135911,1.0,1.0,1.0,0.9915900846877737,True,False

@@ -1,0 +1,2 @@
+sample_stocks,valid_observations,median_ratio,p01_ratio,p99_ratio,reasonable_fraction,pass
+200,272423,1.0001825765398182,0.9661342401341647,1.0353161933957384,0.9999779754279191,True
