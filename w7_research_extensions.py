@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-DATA = Path(__file__).resolve().parent / "research_extensions"
+DATA = Path(__file__).resolve().parent
 
 PAGES = [
     "Turnover Optimization",
